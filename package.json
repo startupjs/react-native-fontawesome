@@ -57,6 +57,9 @@
   "files": [
     "index.js",
     "index.d.ts",
+    "src/converter.js",
+    "src/logger.js",
+    "src/components/FontAwesomeIcon.js",
     "dist/converter.js",
     "dist/logger.js",
     "dist/components/FontAwesomeIcon.js"
