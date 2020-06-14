@@ -53,6 +53,9 @@ function convert(createElement, element, extraProps = {}) {
     { attrs: {} }
   )
 
+  let secondaryFill, secondaryOpacity
+  ({ secondaryFill, secondaryOpacity, ...extraProps } = extraProps)
+
   return createElement(
     svgObjectMap[element.tag],
     { ...mixins.attrs, ...extraProps },
